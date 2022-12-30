@@ -15,17 +15,17 @@
 baseURL: /
 # 站点标题
 # Website title
-title: Hugo NexT
+title: Anbuselvan Palaniyandi
 # 主题名称
 # Theme name
 theme: hugo-theme-next
 # 站点默认的语言和代码
 # Default laguage & code for website
-defaultContentLanguage: zh-cn
-languageCode: zh-CN
+defaultContentLanguage: en
+languageCode: en
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
-hasCJKLanguage: true
+hasCJKLanguage: false
 # 每页显示文章数量
 # Display items per page
 paginate: 10
@@ -39,15 +39,15 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    # codeFences: true
-    # lineNos: true
-    # lineNumbersInTable: true
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
     # noClasses: true
     # # 高亮代码的样式名称，可选：monokai | emacs | api | dracula | friendly
     # # 更多的样式：https://xyproto.github.io/splash/docs/all.html
     # # Highlight style: monokai | emacs | api | dracula | friendly
     # # More: https://xyproto.github.io/splash/docs/all.html 
-    # style: "monokai"
+    style: "monokai"
     anchorLineNos: true
     codeFences: true
     guessSyntax: true
